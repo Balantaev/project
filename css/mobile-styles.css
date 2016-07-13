@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+	display: block;
+}
+*
+{
+	font-family: 'Montserrat', sans-serif;
+}
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	font-size: 16px;
+}
+body
+{
+}
+#page-wraper
+{
+	max-width: 100%;
+}
+.greenline
+{
+	background: #04e4a2;
+	height: 20px;
+	width: 100%;
+}
+.header
+{
+	display: block;
+}
+.logo
+{
+	background: #e94643;
+	color: #fff;
+	float: left;
+
+
+	width: 100%;
+}
+.logo > p
+{
+	font-size: 2rem;
+	text-align: center;
+}
+.primary-menu
+{
+	background: #e94643;
+	
+	min-width: 100%;
+	overflow: auto;
+	display: block;
+	height: auto;
+
+
+}
+.primary-menu >ul
+{
+	margin: 0;
+	padding: 0;
+	text-align: left;
+
+}
+.primary-menu > ul >li
+{
+
+	list-style: none;
+	display: list-item;
+	
+
+}
+.primary-menu > ul >li a
+{
+	color: #fff;
+	text-decoration: none;
+
+}
+.phone-text
+{
+	background: #ef5350;
+	background-size: 100%;
+	display: block;
+}
+.phone
+{
+	float: left;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.phone > img
+{
+	width: 100%;
+}
+.picture2
+{
+	background: url(../images/greenpart.png) no-repeat;
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.text
+{
+	box-sizing: border-box;
+	clear: right;
+	color: white;
+	display: inline-block;
+	float: none;
+	margin-top: 5%;
+	padding: 20px;
+	position: relative;
+
+	width: auto;
+}
+.main_text
+{
+	font-size: 1.8rem;
+	text-align: left;
+}
+.button_know
+{
+	background: #04e4a2;
+	border-radius: 10px;
+	color: #ffffff;
+	float: right;
+	margin: 3%;
+	margin-top: 8%;
+	padding: 2%;
+}
+.white-part
+{
+	background: white;
+	float: none;
+	width: 100%;
+	width: auto;
+}
+.nothing
+{
+	float: left;
+	width: 50%;
+}
+.form
+{
+	color: #ffa9a2;
+	float: left;
+	width: 100%;
+}
+.first
+{
+	width: 50 %;
+}
+.first >input
+{
+	background-color: #fff;
+	border: 3px solid #e3f2fd;
+	margin: 1%;
+	padding: 2%;
+}
+.second
+{
+	width: 50 %;
+}
+.second > input
+{
+	background-color: #fff;
+	border: 3px solid #e3f2fd;
+	margin: 1%;
+	padding: 2%;
+}
+.query_area
+{
+	background-color: #fff;
+	border: 3px solid #e3f2fd;
+	margin: 1%;
+	max-width: 90%;
+	placeholder: kk;
+}
+.footer
+{
+	background: #fefcf2;
+	display: inline-block;
+	width: 100%;
+}
+.copyright
+{
+	background: #fefcf2;
+	float: left;
+	margin-left: 0;
+	text-align: center;
+	width: 100%;
+}
+.mail
+{
+	float: left;
+	text-align: center;
+	width: 100%;
+}
